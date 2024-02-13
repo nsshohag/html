@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form</title>
+    </head>
+    <body>
+        <h1 style="color:pink;text-align: center;">Registration</h1>
+        <form>
+            <div>
+            <label for="fullname">FullName:</label>
+            <input type="text" name="fullname" id="fullname" required>
+            </div>
+            <br>
+            <div>
+            <label for="email">Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="email" name="email" id="email" required>
+            </div>
+            <br>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" required>
+            </div>
+            <br>
+            <div>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" name="date" id="date" required>
+            </div>
+            <br>
+            <div>
+                <label for="photo">Choose your photo:</label>
+                <input type="file" name="photo" id="photo">
+            </div>
+            <br>
+            <div>
+                <label for="gender">Gender:</label>
+                <input type="radio" name="gender" id="gender" value="male"> Male
+                <input type="radio" name="gender" id="gender" value="female"> Female
+                <input type="radio" name="gender" id="gender" value="other"> Other
+            </div>
+            <br>
+            <div>
+                <label for="religion">Religion:</label>
+                <input type="checkbox" name="religion" id="religion" value="Muslim"> Muslim
+                <input type="checkbox" name="religion" id="religion" value="Christian">Christian
+                <input type="checkbox" name="religion" id="religion" value="Atheist" > Atheist
+                <input type="checkbox" name="religion" id="religion" value="Other" > Other
+            </div>
+            <br>
+            <div>
+                <label for="dept">Department:&nbsp;</label>
+                <select name="department" required>
+                <option value="ipe">IPE</option>
+                <option value="cse" selected>CSE</option>
+                <option value="eee">EEE</option>
+                <option value="fuckology">FUCK STUDYING</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for message>Message: &nbsp;</label>
+                <br>
+                <textarea placeholder="Share Your Views" cols="50" rows="25"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Register">
+                <input type="reset" value="Clear" disabled></input>
+            </div>
+        </form>
+    </body>
+</html>
